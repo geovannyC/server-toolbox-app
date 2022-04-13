@@ -54,12 +54,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 `SERVER FOLDER`
    `START`
 ```terminal
-...npm run test
+npm run test
 ```
 `FRONT FOLDER`
    `START`
 ```terminal
-...npm run test
+npm run test
 ```
 
 - [**app**](app)
@@ -76,7 +76,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - [**test**](test)
 
 <div align="center">
-	<h1 >Intewview App</h1>
+	<h1 >Result Testing</h1>
 		<img src="./evidence/image1.png" width="800" height="400" alt="Click to see the source">
 </div>
 
