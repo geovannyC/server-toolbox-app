@@ -4,9 +4,7 @@
 const http = require("http"),
   express = require("express"),
   cors = require('cors'),
-  file_finder = require("./main/file_finder/infrastructure/routes/fileFiner.route"),
-  file = require("./main/files/infrastructure/routes/files.route");
-
+  path = require("./router/router")
   require('dotenv').config();
   
 const app = express()
@@ -16,7 +14,7 @@ app.use(
     credentials: true,
   })
 );
-app.use("/", file_finder, file);
+app.use("/", path);
 const server = http.createServer(app);
 const port = process.env.PORT||4000;
 server.listen(port);
